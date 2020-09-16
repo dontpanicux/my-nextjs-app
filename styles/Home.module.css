@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: #000000; */
 }
 
 .footer img {
@@ -36,7 +37,8 @@
 }
 
 .title a {
-  color: #0070f3;
+  /* color: #0070f3; */
+  color: rebeccapurple;
   text-decoration: none;
 }
 
@@ -86,11 +88,14 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: #FFF;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+
+  /* Amin UI Gradient */
+  background: linear-gradient(180deg, #4A00E0 0%, #8E2DE2 100%);
 }
 
 .card:hover,
